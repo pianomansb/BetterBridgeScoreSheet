@@ -267,7 +267,7 @@ public class MainActivity extends AppCompatActivity {
                 addTextViewsToPad(theyGameLayout, weChildCount-theyChildCount);
         }
 
-        weGameLayout.addView(new GameLine(this, GameLine.GAME_LINE), -1);
+        //weGameLayout.addView(new GameLine(this, GameLine.GAME_LINE), -1);
 
         /*findViewById(R.id.main).getViewTreeObserver().addOnGlobalLayoutListener(
                 new ViewTreeObserver.OnGlobalLayoutListener() {
