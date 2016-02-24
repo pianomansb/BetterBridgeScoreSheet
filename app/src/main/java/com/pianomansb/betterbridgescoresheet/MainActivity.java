@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void createScoreText(int declarerGame, int declarerBonus, int defenderBonus) {
-
+        /*
         int declarer = contract.getDeclarer();
 
         if( declarerGame > 0 ){
@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
             }
             defenderBonusLayout.addView(defenderBonusText, 0);
         }
+        */
     }
 
     //TODO need to add rubber bonuses
@@ -253,7 +254,8 @@ public class MainActivity extends AppCompatActivity {
         beginAuction();
     }
 
-    private void findGames(){
+    private void findGames() {
+        /*
         if( weCurrentGamePoints < 100 && theyCurrentGamePoints < 100 )
             return;
         final LinearLayout weGameLayout = (LinearLayout) findViewById(R.id.we_game);
