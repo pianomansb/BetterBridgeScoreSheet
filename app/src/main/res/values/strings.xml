@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Bridge Score Sheet</string>
+    <string name="we_text">We (N-S)</string>
+    <string name="they_text">They (E-W)</string>
+    <string name="we_bonus">We bonus</string>
+    <string name="we_game">We game</string>
+    <string name="they_bonus">They bonus</string>
+    <string name="they_game">They game</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="clubs">\u2663</string>
+    <string name="diamonds">\u2666</string>
+    <string name="hearts">\u2665</string>
+    <string name="spades">\u2660</string>
+    <string name="notrump">NT</string>
+    <string-array name="levels">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+    </string-array>
+    <string-array name="suits">
+        <item name="clubs">@string/clubs</item>
+        <item name="diamonds">@string/diamonds</item>
+        <item name="hearts">@string/hearts</item>
+        <item name="spades">@string/spades</item>
+        <item name="notrump">@string/notrump</item>
+    </string-array>
+    <string-array name="doubled">
+        <item name="not_doubled">not doubled</item>
+        <item name="doubled">doubled</item>
+        <item name="redoubled">redoubled</item>
+    </string-array>
+    <string-array name="seats">
+        <item name="north">North</item>
+        <item name="east">East</item>
+        <item name="south">South</item>
+        <item name="west">West</item>
+    </string-array>
+</resources>
